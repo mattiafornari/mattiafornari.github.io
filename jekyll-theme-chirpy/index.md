@@ -1,7 +1,7 @@
 ---
+layout: home
 title: Home
 date: 2024-05-25
-layout: home
 ---
 
 # Benvenuto nel mio Portfolio
