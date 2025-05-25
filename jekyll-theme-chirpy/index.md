@@ -18,7 +18,6 @@ Il mio obiettivo è sviluppare soluzioni tecnologiche innovative che possano ave
 - Generative AI
 - Computer Vision
 
-
 ## Progetti
 Qui troverai una selezione dei miei progetti più significativi, che dimostrano le mie competenze e la mia passione per il mondo dell'ingegneria e dell'informatica.
 
