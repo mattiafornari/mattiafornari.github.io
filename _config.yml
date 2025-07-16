@@ -1,7 +1,7 @@
 # The Site Configuration
 
-# Import the theme
-theme: jekyll-theme-chirpy
+# For GitHub Pages deployment
+remote_theme: cotes2020/jekyll-theme-chirpy@v4.3.3
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -9,37 +9,42 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Europe/Rome
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Mattia Fornari
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Ingegnere Informatico in Formazione
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Portfolio personale di Mattia Fornari, studente di Ingegneria Informatica.
+  Esplora i miei progetti, competenze e esperienze nel campo dell'informatica e dell'ingegneria.
+
+seo:
+  meta_description: "Portfolio di Mattia Fornari - Studente di Ingegneria Informatica"
+  meta_keywords: "Mattia Fornari, Ingegneria Informatica, Portfolio, Computer Engineering"
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://mattiafornari.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: mattiafornari # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  #username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Mattia Fornari
+  email: matfornari8@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    #- https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/mattiafornari
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -83,22 +88,22 @@ pageviews:
 # and there will be a toggle to switch the theme between dark and light
 # on the bottom left of the sidebar.
 #
-# Available options:
+# Available optionfs:
 #
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: light
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn:
+cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/commons/avatar.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -147,7 +152,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+paginate: 5
 
 # The base URL of your site
 baseurl: ""
@@ -213,7 +218,7 @@ exclude:
   - README.md
   - LICENSE
   - purgecss.js
-  - "*.config.js"
+  - rollup.config.js
   - "package*.json"
 
 jekyll-archives:
@@ -224,3 +229,10 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-include-cache
