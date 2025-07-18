@@ -10,9 +10,9 @@ Sono **Mattia Fornari**, uno studente di Ingegneria Informatica Magistrale con l
 
 ## Formazione
 
-- Attualmente sto conseguendo la Laurea Magistrale in Ingegneria Informatica presso Università degli Studi di Brescia
-- Laurea Triennale in Ingegneria Informatica presso Università degli Studi di Brescia
-- Istituto di Istruzione Superiore “Galileo Galilei” settore Informatica Crema
+- Attualmente sto conseguendo la Laurea Magistrale in Ingegneria Informatica presso Università degli Studi di Brescia;
+- Laurea Triennale in Ingegneria Informatica presso Università degli Studi di Brescia. Tesi: "Progettazione di un controllore per la stabilizzazione di un drone";
+- Istituto di Istruzione Superiore “Galileo Galilei” settore Informatica - Crema.
 
 ## Competenze
 
@@ -24,6 +24,7 @@ Sono **Mattia Fornari**, uno studente di Ingegneria Informatica Magistrale con l
 - **Database**: MySQL, PostgreSQL
 - **Tools**: Simulink, ROS2 Jazzy, ROS2 Humble, Unity3D, Blender, Git, Github
 - **S.O.**: Windows, Linux
+- **Cloud Computing**
 
 
 ## Progetti
@@ -32,7 +33,7 @@ Qui elencherò presto una selezione dei miei progetti più significativi, che di
 
 ## Contatti
 
-Sentiti libero di contattarmi via email a [matfornari8@gmail.com](mailto:matfornari8@gmail.com) o tramite i link social nella sidebar. 
+Sentiti libera/o di contattarmi via email a [matfornari8@gmail.com](mailto:matfornari8@gmail.com) o tramite i link social nella sidebar. 
 
 
 ---
