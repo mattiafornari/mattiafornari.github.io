@@ -6,7 +6,7 @@ order: 4
 
 # Chi sono
 
-Sono **Mattia Fornari**, uno studente di Ingegneria Informatica Magistrale con la passione per lo sviluppo software in ambito AI, Machine Learning, Deep Learning, Computer Vision, NLP, Autonomous Mobile Robotics, matematico.
+Sono **Mattia Fornari**, uno studente di Ingegneria Informatica Magistrale con la passione per lo sviluppo software in ambito AI, Machine Learning, Deep Learning, Computer Vision, NLP, Autonomous Mobile Robotics, Reinforcement Learning, matematico.
 
 ## Formazione
 
