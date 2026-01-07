@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# Chi sono
+<!--# Chi sono
 
 Sono **Mattia Fornari**, uno studente di Ingegneria Informatica Magistrale con la passione per lo sviluppo software in ambito AI, Machine Learning, Deep Learning, Computer Vision, NLP, Autonomous Mobile Robotics, Reinforcement Learning, matematico.
 
@@ -39,3 +39,5 @@ Sentiti libera/o di contattarmi via email a [matfornari8@gmail.com](mailto:matfo
 ---
 
 *Questo sito è in fase di aggiornamento continuo, torna presto per vedere nuovi contenuti!*
+-->
+Sito in aggiornamento.
